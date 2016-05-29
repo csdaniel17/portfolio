@@ -56,7 +56,6 @@ a:focus, a:active {
   text-decoration: none;
 }
 
-
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255,255,255,.3);
@@ -75,7 +74,6 @@ a:focus, a:active {
 
 .navbar-custom .navbar-brand {
   font-weight: 500;
-
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -245,6 +243,7 @@ a:focus, a:active {
 
 .portfolio-box img {
   padding: 15px;
+  height: 200px;
 }
 
 .portfolio-box .img-responsive{
