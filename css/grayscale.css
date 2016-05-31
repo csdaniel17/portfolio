@@ -248,7 +248,7 @@ a:focus, a:active {
 
 .portfolio-box img {
   padding: 15px;
-  height: 200px;
+  height: 250px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
