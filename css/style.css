@@ -2,7 +2,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: 'Shadows Into Light Two', cursive;
-  color: #fff;
+  color: #d8d8d8;
   background-color: #929292;
   text-transform: lowercase;
   font-size: 20px;
@@ -19,12 +19,25 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: lowercase;
   font-weight: 700;
   letter-spacing: 3px;
+  color: #35272d;
+}
+
+h1 {
+  color: #d8d8d8;
 }
 
 p {
   margin: 20px;
   font-size: 18px;
   line-height: 1.5;
+}
+
+#info-window-text {
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #35272d;
+  text-transform: lowercase;
+  font-weight: 900;
+  font-size: 16px;
 }
 
 .tools {
@@ -365,5 +378,23 @@ img::-moz-selection {
 }
 
 body {
-  webkit-tap-highlight-color: rgba(255,255,255,.2);
+  -webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.form-box {
+  margin-top: 5%;
+}
+
+#form-font {
+  color: #35272d;
+  margin-bottom: 10px;
+}
+
+label {
+  color: #35272d;
+}
+
+.form-control {
+  border-radius: 0;
+  background-color: #d8d8d8;
 }

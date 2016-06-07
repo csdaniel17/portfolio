@@ -28,7 +28,6 @@ $('.navbar-collapse ul li a').click(function() {
   }
 });
 
-
 //google maps api
 function initMap() {
   var myLatLng = {lat: 33.7490, lng: -84.3880}; //atlanta
@@ -144,10 +143,8 @@ function initMap() {
             "weight": 1.2
         }]
     }],
-
     // disabel default scrolling zoom
     scrollwheel: false,
-
   };
 
   var element = document.getElementById('map');
@@ -162,10 +159,20 @@ function initMap() {
 
   var marker = new google.maps.Marker({
     position: myLatLng,
-    title: 'Atlanta',
+    title: 'atlanta',
     icon: markerImage,
     animation: google.maps.Animation.DROP
   });
 
   marker.setMap(map);
+
+  var infoWindowText = '<div id="info-window-text">welcome to atlanta!</div>';
+
+  var infowindow = new google.maps.InfoWindow({
+    content: infoWindowText
+  });
+
+  marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
 }
