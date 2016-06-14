@@ -41,10 +41,10 @@
         <a class="navbar-brand page-scroll" href="#page-top">carolyn s daniel</a>
       </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
+      <!-- collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <!-- hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden"><a href="#page-top"></a></li>
           <li><a class="page-scroll" href="#about">about</a></li>
           <li><a class="page-scroll" href="#skills">skills</a></li>
@@ -117,9 +117,9 @@
         </div>
         <div class="col-md-4 text-center">
           <div class="portfolio-box">
-            <p>blackjack<br><span class="tools">HTML5, CSS3, jQuery</span></p>
-            <img src="img/blackjack.png" class="img-responsive" alt="blackjack" />
-            <p><a href="https://github.com/csdaniel17/blackjack" class="btn btn-default btn-lg" target="_blank">repo</a>  <a href="http://danielblackjack.surge.sh/" class="btn btn-default btn-lg" target="_blank">demo</a></p>
+            <p>weather map app<br><span class="tools">HTML5, CSS3, AngularJS</span></p>
+            <img src="img/weatherapp.png" class="img-responsive" alt="weatherapp" />
+            <p><a href="https://github.com/csdaniel17/weather-map-app" class="btn btn-default btn-lg" target="_blank">repo</a>  <a href="http://danielweatherapp.surge.sh/" class="btn btn-default btn-lg" target="_blank">demo</a></p>
           </div>
         </div>
         <div class="col-md-4 text-center">
@@ -145,18 +145,25 @@
         </div>
         <div class="col-md-4 text-center">
           <div class="portfolio-box">
+            <p>blackjack<br><span class="tools">HTML5, CSS3, jQuery</span></p>
+            <img src="img/blackjack.png" class="img-responsive" alt="blackjack" />
+            <p><a href="https://github.com/csdaniel17/blackjack" class="btn btn-default btn-lg" target="_blank">repo</a>  <a href="http://danielblackjack.surge.sh/" class="btn btn-default btn-lg" target="_blank">demo</a></p>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="portfolio-box">
             <p>rock, paper, scissors<br><span class="tools">HTML5, CSS3, AngularJS</span></p>
             <img src="img/rockpaperscissors.png" class="img-responsive" alt="rockpaperscissors" />
             <p><a href="https://github.com/csdaniel17/rock-paper-scissors-angularjs" class="btn btn-default btn-lg" target="_blank">repo</a>  <a href="http://danielrockpaperscissors-angular.surge.sh/" class="btn btn-default btn-lg" target="_blank">demo</a></p>
           </div>
         </div>
-        <div class="col-md-4 text-center">
+        <!-- <div class="col-md-4 text-center">
           <div class="portfolio-box">
             <p>tic tac toe<br><span class="tools">HTML5, CSS3, jQuery</span></p>
             <img src="img/tictactoe.png" class="img-responsive" alt="tictactoe" />
             <p><a href="https://github.com/csdaniel17/tic-tac-toe" class="btn btn-default btn-lg" target="_blank">repo</a>  <a href="http://danieltictactoe.surge.sh/" class="btn btn-default btn-lg" target="_blank">demo</a></p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -183,11 +190,9 @@
         </ul>
       </div>
     </div>
-  </section>
 
-  <!-- form & map section -->
-  <section id="" class="container content-section text-center">
-    <!-- <div class="row"> -->
+    <!-- form & map -->
+    <div class="row form-map">
       <div class="col-md-6 text-center form-box">
         <!-- form goes here -->
         <h3 id="form-font">shoot me a message!</h3>
@@ -209,7 +214,7 @@
           <div class="form-group">
             <div class="col-sm-12">
               <label for="message" class="col-sm-2 control-label">message:</label>
-              <textarea class="form-control" rows="4" name="message"></textarea>
+              <textarea class="form-control" rows="4" name="message" placeholder="/*not yet working, please send me an email at carolyn.s.daniel@gmail.com thanks!*/"></textarea>
             </div>
           </div>
 
@@ -221,14 +226,12 @@
 
         </form>
       </div>
-    <!-- </div> -->
 
-    <!-- <div class="row"> -->
       <div class="col-md-6 text-center">
         <div id="map"></div>
       </div>
 
-    <!-- </div> -->
+    </div>
 
   </section>
 
@@ -247,7 +250,7 @@
   <!-- jQuery easing -->
   <script src="js/jquery.easing.min.js"></script>
   <!-- google maps API key -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZuSUE-bFz4ikC7M5z5D1W2ko8PCLU8dw&callback=initMap"
   async defer></script>
   <!-- custom JavaScript -->
   <script src="js/script.js"></script>
