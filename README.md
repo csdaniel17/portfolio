@@ -1,3 +1,3 @@
 My personal website
 
-[Check it out](http://carolyndaniel.surge.sh/)
+[Check it out](http://carolysndaniel.surge.sh/)
