@@ -353,8 +353,11 @@ footer p {
 }
 
 .back-to-top {
+  /*position: fixed;*/
+  bottom: 0;
+  right: 20px;
   float: right;
-  margin: 10px 30px 50px;
+  margin: 10px 30px 20px;
 }
 
 ::-moz-selection {
