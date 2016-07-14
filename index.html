@@ -33,7 +33,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <!-- Navigation -->
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div class="container">
+    <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
           <i class="fa fa-bars"></i>
@@ -45,7 +45,7 @@
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
           <!-- hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden"><a href="#page-top"></a></li>
+          <!-- <li class="hidden"><a href="#page-top"></a></li> -->
           <li><a class="page-scroll" href="#about">about</a></li>
           <li><a class="page-scroll" href="#skills">skills</a></li>
           <li><a class="page-scroll" href="#portfolio">portfolio</a></li>
@@ -85,46 +85,48 @@
   </section>
 
   <!-- skills section -->
-  <section id="skills" class="container content-section text-center">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h2>skills</h2>
+  <section id="skills" class="content-section text-center">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>skills</h2>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3 text-center">
-        <i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
-        <p>HTML5</p>
+      <div class="row">
+        <div class="col-sm-3 text-center">
+          <i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
+          <p>HTML5</p>
+        </div>
+        <div class="col-sm-3 text-center">
+          <i class="fa fa-css3 fa-5x" aria-hidden="true"></i>
+          <p>CSS3</p>
+        </div>
+        <div class="col-sm-3 text-center">
+          <i class="fa fa-code fa-5x" aria-hidden="true"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="col-sm-3 text-center">
+          <i class="fa fa-usd fa-5x" aria-hidden="true"></i>
+          <p>jQuery</p>
+        </div>
       </div>
-      <div class="col-md-3 text-center">
-        <i class="fa fa-css3 fa-5x" aria-hidden="true"></i>
-        <p>CSS3</p>
-      </div>
-      <div class="col-md-3 text-center">
-        <i class="fa fa-code fa-5x" aria-hidden="true"></i>
-        <p>JavaScript</p>
-      </div>
-      <div class="col-md-3 text-center">
-        <i class="fa fa-usd fa-5x" aria-hidden="true"></i>
-        <p>jQuery</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3 text-center">
-        <i class="fa fa-database fa-5x" aria-hidden="true"></i>
-        <p>MongoDB</p>
-      </div>
-      <div class="col-md-3 text-center">
-        <i class="fa fa-bolt fa-5x" aria-hidden="true"></i>
-        <p>Express</p>
-      </div>
-      <div class="col-md-3 text-center">
-        <i class="fa fa-code-fork fa-5x" aria-hidden="true"></i>
-        <p>AngularJS</p>
-      </div>
-      <div class="col-md-3 text-center">
-        <i class="fa fa-terminal fa-5x" aria-hidden="true"></i>
-        <p>Node.js</p>
+      <div class="row">
+        <div class="col-sm-3 text-center">
+          <i class="fa fa-database fa-5x" aria-hidden="true"></i>
+          <p>MongoDB</p>
+        </div>
+        <div class="col-sm-3 text-center">
+          <i class="fa fa-bolt fa-5x" aria-hidden="true"></i>
+          <p>Express</p>
+        </div>
+        <div class="col-sm-3 text-center">
+          <i class="fa fa-code-fork fa-5x" aria-hidden="true"></i>
+          <p>AngularJS</p>
+        </div>
+        <div class="col-sm-3 text-center">
+          <i class="fa fa-terminal fa-5x" aria-hidden="true"></i>
+          <p>Node.js</p>
+        </div>
       </div>
     </div>
   </section>
@@ -272,11 +274,21 @@
 
   <!-- footer -->
   <footer>
-    <div class="container text-center">
-      <p>made in atlanta | copyright &copy;2016<br> <a href="mailto:carolyn.s.daniel@gmail.com" style="color: #35272d"><strong>carolyn.s.daniel@gmail.com</strong></a></p>
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col col-md-2"></div>
+        <div class="col col-md-8">
+          <p>made in atlanta | copyright &copy;2016<br> <a href="mailto:carolyn.s.daniel@gmail.com" style="color: #35272d"><strong>carolyn.s.daniel@gmail.com</strong></a></p>
+        </div>
+        <div class="col col-md-2">
+          <!-- back to top button -->
+          <a href="#page-top" class="back-to-top btn btn-default btn-lg"><i class="fa fa-arrow-up fa-fw" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+
     </div>
-    <!-- back to top button -->
-    <a href="#page-top" class="back-to-top btn btn-default btn-lg"><i class="fa fa-arrow-up fa-fw" aria-hidden="true"></i></a>
+
   </footer>
 
 
