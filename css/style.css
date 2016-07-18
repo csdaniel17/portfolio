@@ -9,6 +9,7 @@ body {
   letter-spacing: 2px;
   font-weight: 500;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 .container-fluid {
@@ -47,7 +48,6 @@ p {
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
-  outline: 0;
   color: rgba(255,255,255,.8);
   background-color: transparent;
 }
@@ -77,7 +77,6 @@ p {
 
 .intro-body h1 {
   font-size: 80px;
-  letter-spacing: 5px;
 }
 
 .intro-body p {
@@ -180,9 +179,12 @@ footer p {
 .btn-default:hover,
 .btn-default:focus {
   border: 2px solid #35272d;
-  outline: 0;
   color: #d8d8d8;
   background-color: #35272d;
+}
+
+.back-to-top {
+  margin: 30px 0 0;
 }
 
 @media(min-width:768px) {
@@ -208,9 +210,6 @@ footer p {
   }
   footer p {
     font-size: 16px;
-  }
-  .back-to-top {
-    margin: 20px 0 10px;
   }
   .social-btns li {
     display: block;
